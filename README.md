@@ -1,4 +1,4 @@
-# Revou_Software_Engineering_Fundamental_Course
+# Revou Software Engineering Fundamental Course
 Catatan dari pembelajaran Revou Software Engineering Fundamental Course a/n Teramadhi Kirliana Putra 
 
 Day 1 - 27 November 2023
