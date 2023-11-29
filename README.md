@@ -1,5 +1,5 @@
-# Revou_WEB_FC
-Latihan Revou Fundamental Course Software Engineer a/n Teramadhi Kirliana Putra 
+# Revou_Software_Engineering_Fundamental_Course
+Catatan dari pembelajaran Revou Software Engineering Fundamental Course a/n Teramadhi Kirliana Putra 
 
 Day 1 - 27 November 2023
 - Pengenalan Pemrograman
