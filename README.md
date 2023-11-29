@@ -11,3 +11,18 @@ Day 2 - 28 November 2023
 - Pengenalan struktur HTML
 - Jenis-jenis tampilan pada HTML mulai dari link, image, list, table, dan form
 - Mini Task membuat tampilan kalkulator
+
+Day 3 - 29 November 2023
+- Pengenalan CSS (Cascading Style Sheets)
+- penggunaan CSS pada HTML melalui cara Inline, Internal atau external
+- Penggunaan Css selector
+- Attribute Selector menggunakan target, hover
+- Color bisa ditentukan berdasarkan values seprti rgb ataupun rgba
+- Text dan font bisa diedit dalam CSS
+- pembalajaran mengenai basic layouting menggunakan display dengan cara inline, span, flex dan grid
+- untuk memperdalam display:flex bisa cek di situs css-tricks.com
+- agar taimpilan bisa responsice bisa ditentukan menggunakan Unit length
+- CSS Box Model terdiri dari padding, border, dan margin
+- CSS Allign
+- CSS grid merupakan alternatif dari display flex menggunakan .wrapper untuk referensi bisa cek kembali di situs css-tricks.com
+- Mini Task membuat kalkulator menggunakan grid
