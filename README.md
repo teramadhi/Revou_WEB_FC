@@ -21,8 +21,8 @@ Day 3 - 29 November 2023
 - Text dan font bisa diedit dalam CSS
 - pembalajaran mengenai basic layouting menggunakan display dengan cara inline, span, flex dan grid
 - untuk memperdalam display:flex bisa cek di situs css-tricks.com
-- agar taimpilan bisa responsice bisa ditentukan menggunakan Unit length
+- Umumnya Unit Lenght menggunakan tipe Absolute lengts (px, pt, cm, mm) agar tampilan bisa responsive maka unit bisa ditentukan menggunakan tipe Relative Length (%, em, rem, dsb...)
 - CSS Box Model terdiri dari padding, border, dan margin
-- CSS Allign
-- CSS grid merupakan alternatif dari display flex menggunakan .wrapper untuk referensi bisa cek kembali di situs css-tricks.com
+- CSS Allign untuk menyelaraskan elemen secara vertikal atau horizontal (align-content: ,align-items: ,align-self:)
+- CSS grid motode yang bersifat 2 dimensi dan merupakan alternatif dari display flex yang bersifat 1 dimensi untuk referensi bisa cek kembali di situs css-tricks.com
 - Mini Task membuat kalkulator menggunakan grid
