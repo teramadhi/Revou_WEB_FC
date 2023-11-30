@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Test</title>
+        <title>Praktek Revou SEFC</title>
+        <link rel="stylesheet" 
+        type="text/css"
+        href="index.css">
+        <!-- <style> /*ini style kalau menggunakan css secara internal*/
+            a:hover {
+                background-color: greenyellow;
+            }
+            #line {
+                border: 1px solid rgb(35, 35, 35)
+            }
+            button {
+                width: 100%;
+                border: none;
+                border-radius: 4px;
+            }
+            .red {
+                background-color: red;
+                color: white;
+            }
+            .orange {
+                background-color: orange;
+                color: white;
+            }
+            .blue {
+                background-color: rgb(0, 140, 255);
+                color: white;
+            }
+            .darkGrey {
+                background-color: rgb(90, 90, 90);
+                color: white;
+            }
+        </style> -->
     </head>
-    <style>
-        table, th,td {
-            border: 1px solid rgb(35, 35, 35)
-        }
-        button {
-            width: 100%;
-        }
-    </style>
     <body>
-        <h1 style="color: green;"><i>Hello World!</i></h1>
+        <h1 style="color: green;"><span id="textB">Hello</span> World!</h1>
         <section> <!--ini komentar, bagian ini isinya testing pengenalan html-->
             <hr>
-            <p>pargragraf 1</p>
-            <p>pargragraf 2</p>  
+            <p>paragraf 1</p>
+            <p>paragraf 2</p>  
             <p>baris 1</p>
             <hr>
             
@@ -36,11 +60,14 @@
             <br>
 
             <hr>
-            <a href="#List Buah">List Buah</a> <br>
-            <a href="#Table Output">Table Output</a> <br>
-            <a href="#Bentuk Form">Bentuk Form</a> <br>
-            <a href="#Kalkulator">Kalkulator</a> <br>
-            <a href="#Dimebag Darrel">Dimebag Darrel</a>
+            <nav class="container">
+                <div id="logo"><img src="https://i.pinimg.com/736x/5c/2d/e9/5c2de9752dc8b8e3391a92022eee80d4.jpg" width="100%"> </div>
+                <div id="navBox"><a href="#List Buah">List Buah</a></div>
+                <div id="navBox"><a href="#Table Output">Table Output</a></div>
+                <div id="navBox"> <a href="#Bentuk Form">Bentuk Form</a></div>
+                <div id="navBox"><a href="#Kalkulator">Kalkulator</a></div>
+                <div id="navBox"><a href="#Dimebag Darrel">Dimebag Darrel</a></div>
+            </nav> 
             <hr>
         </section>
 
@@ -58,29 +85,29 @@
             <hr>
 
         <h2 id="Table Output">Table Output</h2>
-            <table> <!---Tabel Nama dan Umur--->
-                <tr>
-                    <th colspan="3" width="240px">Daftar Calon Pria Idaman</th>
+            <table id="line"> <!---Tabel Nama dan Umur--->
+                <tr >
+                    <th id="line" colspan="3" width="240px">Daftar Calon Pria Idaman</th>
+                </tr>
+                <tr >
+                    <th id="line"><center>No</center></th>
+                    <th id="line"><center>Nama</center></th>
+                    <th id="line"><center>Umur</center></th>
                 </tr>
                 <tr>
-                    <th><center>No</center></th>
-                    <th><center>Nama</center></th>
-                    <th><center>Umur</center></th>
+                    <td id="line"><center>1</center></td>
+                    <td id="line"><center>Agung</center></td>
+                    <td id="line"><center>22</center></td>
                 </tr>
                 <tr>
-                    <td><center>1</center></td>
-                    <td><center>Agung</center></td>
-                    <td><center>22</center></td>
+                    <td id="line"><center>2</center></td>
+                    <td id="line"><center>Bobi</center></td>
+                    <td id="line"><center>23</center></td>
                 </tr>
                 <tr>
-                    <td><center>2</center></td>
-                    <td><center>Bobi</center></td>
-                    <td><center>23</center></td>
-                </tr>
-                <tr>
-                    <td><center>3</center></td>
-                    <td><center>Cunli</center></td>
-                    <td><center>24</center></td>
+                    <td id="line"><center>3</center></td>
+                    <td id="line"><center>Cunli</center></td>
+                    <td id="line"><center>24</center></td>
                 </tr>
             </table>
             <hr>
@@ -98,7 +125,7 @@
 
                 <br>
                 <fieldset>
-                    <legend>Legend</legend>
+                    <legend>Perhatikan Legend</legend>
                     <p>Masukkan e-mail dan password untuk Login</p>
                     <b> Ini tulisannya ditebelin</b>
                     <br>
@@ -113,42 +140,67 @@
             </form>
             <hr>
 
-        <h2 id="Kalkulator">Kalkulator</h2>
+        <h2 id="Kalkulator">Kalkulator Pake Table</h2>
             <table> <!---Kalkulator--->
                 <style>
                     
                 </style>
-                <tr></tr>
+                <tr>
                     <th colspan="4"><input type="name" name="display"></th>
-                <tr></tr>
-                    <td colspan="2"> <button>AC</button> </td>
-                    <td> <button>C</button> </td>
-                    <td> <button>*</button> </td>
+                </tr>
+                    <td colspan="2"> <button class="red">AC</button> </td>
+                    <td> <button class="blue">C</button> </td>
+                    <td> <button class="orange">*</button> </td>
                 <tr>
                     <td> <button>7</button> </td>
                     <td> <button>8</button> </td>
                     <td> <button>9</button> </td>
-                    <td> <button>/</button> </td>
+                    <td> <button class="orange">/</button> </td>
                 </tr>
                 <tr>
                     <td> <button>4</button> </td>
                     <td> <button>5</button> </td>
                     <td> <button>6</button> </td>
-                    <td>  <button>+</button> </td>
+                    <td>  <button class="orange">+</button> </td>
                 </tr>
                 <tr>
                     <td> <button>1</button> </td>
                     <td> <button>2</button> </td>
                     <td> <button>3</button> </td>
-                    <td> <button>-</button> </td>
+                    <td> <button class="orange">-</button> </td>
                 </tr>
                 <tr>
-                    <td> <button>+ -</button> </td>
+                    <td> <button class="darkGrey">+ -</button> </td>
                     <td> <button>0</button> </td>
-                    <td> <button>.</button> </td>
-                    <td> <button>=</button> </td>
+                    <td> <button class="darkGrey">.</button> </td>
+                    <td> <button class="orange">=</button> </td>
                 </tr>
             </table>
+            <hr>
+
+            <h2 id="Kalkulator">Kalkulator Pake Grid</h2>
+            <div class="kalkulatorGrid"> <!---Kalkulator--->
+                <input type="name" name="display" id="inputKalkulator">
+                <button class="red" id="acKalkulator">AC</button>
+                <button class="blue">C</button>
+                <button class="orange">*</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="orange">/</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="orange">+</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="orange">-</button>
+                <button class="darkGrey">+ -</button>
+                <button>0</button>
+                <button class="darkGrey">.</button>
+                <button class="orange">=</button>
+            </div>
             <hr>
 
         <h2 id="Dimebag Darrel">Dimebag Darrel</h2>
